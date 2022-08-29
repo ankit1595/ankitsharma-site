@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <!-- CSS way 1: Style Tag -->
+    <!-- <style>
+        body{
+            color: red;
+        }
+    </style> -->
+
+    <!-- Third way of doing CSS: external link-->
+    <link rel="stylesheet" href="/styles.css"> 
+    <!-- Here, if you observe, "/" is added in front of file name; it is because root path/relative path -->
+</head>
+
+<body>
+    <h1>Ankit's component Library</h1>
+    <!-- style ="color:red" -->
+    <p>I want to make a library which would make all my projects look good and consistent.</p>
+
+    <hr>
+
+    <h2>@typography</h2>
+
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest heading</h2>
+    <p>let me show you the normal text. This is free flowing and will wrap at the end like a paragraph</p>
+    <p>This paragraph will have a <strong>bold</strong> text</p>
+    <small>This is relatively smaller text</small>
+
+    <hr>
+
+    <h2>@containers</h2>
+
+    <h3>@fluid containers</h3>
+    <div class="container">This is a fluid container. It will go full width of the page. With some margin.</div>
+
+    <h3>@center containers</h3>
+    <div class="container container-center">This is a center container. It will go till given width and center content..
+    </div>
+
+    <hr>
+
+    <h2>@links</h2>
+
+    <a class="link link-primary" href="/">Primary link</a>
+
+    <a class="link link-secondary" href="/">Secondary link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+
+    <h3>unordered list</h3>
+    <p>This list will not have the bullet</p>
+
+    <ul class="list-non-bullet">
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+
+    </ul>
+
+    <h3>unordered inline list</h3> //It will work through CSS not in HTML
+
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline item one</li>
+        <li class="list-item-inline">inline item two</li>
+        <li class="list-item-inline">inline item three</li>
+
+    </ul>
+
+
+    <h3>reverse ordered list</h3> //Ordered list have numbers; reverse order will done through CSS
+
+    <ol reversed>
+        <li>milk</li>
+        <li>whey protien</li>
+        <li>bread</li>
+
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <nav class="navigation">
+        <div class="nav-brand">Ankit Sharma's portfolio</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+
+    <header class="hero">
+        <img class="hero-img" src="/images/hero.svg">
+        <h1 class="hero-heading">Ankit Sharma - <span style="color: var(--primary-color);"> The Web developer</span>
+        </h1>
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+
+    <section class="section ">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document
+                written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements
+                should be rendered on screen, on paper, in speech, or on other media.
+
+            </p>
+        </div>
+    </section>
+
+    <section class="section ow ">
+        <div class="container container-center">
+            <h1>off white section</h1>
+            <p>CSS is among the core languages of the open web and is standardized across Web browsers according to W3C
+                specifications. Previously, development of various parts of CSS specification was done synchronously,
+                which allowed versioning of the latest recommendations. You might have heard about CSS1, CSS2.1, CSS3.
+                However, CSS4 has never become an official version.
+            </p>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+    <footer class="footer">
+        <div class="footer-header">Some small heading inside footer</div>
+        <ul class="list-non-bullet link-social">
+            <li class="list-item-inline">
+                <a class="link  " href="/">social-one</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link " href="/">social-two</a> 
+            </li>
+            <li class="list-item-inline">
+                 <a class="link " href="/">social-three</a>
+             </li>
+        </ul>
+    </footer>
+
+
+</body>
+
+</html>

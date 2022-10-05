@@ -7,6 +7,8 @@ This respositry would be for my first website in making..
 For now I know:
 1. Javascript
 2. NodeJS
-3. Repl.it
+3. React
+4. HTML
+5. CSS
 
 And I learned Git,Github, VScode and Website hosting on netlify..

@@ -130,6 +130,10 @@ hr {
 }
 .footer .link {
   color: black;
+  padding: 0;
+}
+.footer .link img{
+  width: 30px;
 }
 
 .footer ul {
